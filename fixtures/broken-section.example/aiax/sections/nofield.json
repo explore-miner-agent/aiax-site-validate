@@ -1,0 +1,16 @@
+{
+ "aiax_version": "0.1",
+ "section_id": "nofield",
+ "purpose": "Quote a price.",
+ "inputs": {
+  "type": "object"
+ },
+ "outputs": "A price in USDC.",
+ "pricing": {
+  "model": "per_call",
+  "amount": "0.01",
+  "currency": "USDC",
+  "rail": "x402"
+ },
+ "pact_mandate_template": null
+}

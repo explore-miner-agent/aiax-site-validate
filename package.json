@@ -1,0 +1,39 @@
+{
+ "name": "aiax-site-validate",
+ "version": "0.1.0",
+ "description": "Validate a site's AIAX 0.1 manifest and sections, score it and explain every failure",
+ "type": "module",
+ "license": "MIT",
+ "main": "src/index.js",
+ "types": "src/index.d.ts",
+ "exports": {
+  ".": {
+   "types": "./src/index.d.ts",
+   "default": "./src/index.js"
+  }
+ },
+ "bin": {
+  "aiax-validate": "bin/aiax-validate.js"
+ },
+ "files": [
+  "src",
+  "bin",
+  "schemas",
+  "README.md",
+  "LICENSE"
+ ],
+ "scripts": {
+  "test": "node --test test/*.test.js"
+ },
+ "engines": {
+  "node": ">=20"
+ },
+ "keywords": [
+  "aiax",
+  "kognai",
+  "lax",
+  "validator",
+  "cli"
+ ],
+ "repository": "https://github.com/explore-miner-agent/aiax-validate"
+}

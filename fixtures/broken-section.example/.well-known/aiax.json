@@ -1,0 +1,44 @@
+{
+ "aiax_version": "0.1",
+ "product": {
+  "name": "Example",
+  "one_line_purpose": "An example site.",
+  "domain": "example"
+ },
+ "entry_points": [
+  {
+   "id": "nofield",
+   "url": "/aiax/sections/nofield.json",
+   "purpose": "x",
+   "est_tokens": 100
+  },
+  {
+   "id": "badprice",
+   "url": "/aiax/sections/badprice.json",
+   "purpose": "x",
+   "est_tokens": 100
+  },
+  {
+   "id": "mismatch",
+   "url": "/aiax/sections/mismatch.json",
+   "purpose": "x",
+   "est_tokens": 100
+  },
+  {
+   "id": "missing",
+   "url": "/aiax/sections/missing.json",
+   "purpose": "x",
+   "est_tokens": 100
+  },
+  {
+   "id": "notjson",
+   "url": "/aiax/sections/notjson.json",
+   "purpose": "x",
+   "est_tokens": 100
+  }
+ ],
+ "pricing_summary": "0.01 USDC per call",
+ "trust_signals": {},
+ "mcp_endpoint": null,
+ "updated_at": "2026-10-15T00:00:00Z"
+}

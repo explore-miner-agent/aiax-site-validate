@@ -1,0 +1,20 @@
+{
+ "aiax_version": "0.1",
+ "product": {
+  "name": "Example",
+  "one_line_purpose": "An example site.",
+  "domain": "example"
+ },
+ "entry_points": [
+  {
+   "id": "Bad Id!",
+   "url": "/aiax/sections/pricing.json",
+   "purpose": "Prices",
+   "est_tokens": 120
+  }
+ ],
+ "pricing_summary": "0.01 USDC per call",
+ "trust_signals": {},
+ "mcp_endpoint": 42,
+ "colour": "blue"
+}

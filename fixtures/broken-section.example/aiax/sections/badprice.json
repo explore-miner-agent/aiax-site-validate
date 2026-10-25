@@ -1,0 +1,26 @@
+{
+ "aiax_version": "0.1",
+ "section_id": "badprice",
+ "purpose": "Quote a price.",
+ "inputs": {
+  "type": "object"
+ },
+ "outputs": "A price in USDC.",
+ "pricing": {
+  "model": "per_hour",
+  "amount": "one cent",
+  "currency": "USDC"
+ },
+ "examples": [
+  {
+   "description": "Quote",
+   "request": {
+    "item": "a"
+   },
+   "response": {
+    "price": "0.01"
+   }
+  }
+ ],
+ "pact_mandate_template": null
+}
